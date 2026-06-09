@@ -18,11 +18,14 @@ Aplicación de chat grupal cliente-servidor desarrollada en Java, usando sockets
 - **IDE**: IntelliJ IDEA
 
 ## Estructura
+
+```
 src/
 ├── ServidorChat.java   # Servidor: acepta conexiones y coordina el chat
 ├── HiloCliente.java    # Hilo del servidor que atiende a cada cliente conectado
 ├── ClienteChat.java    # Cliente: conexión y envío de mensajes
 └── HiloLectura.java    # Hilo del cliente para recibir mensajes en paralelo
+```
 
 ## Cómo ejecutar
 
